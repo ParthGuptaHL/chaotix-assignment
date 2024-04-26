@@ -6,12 +6,12 @@ Welcome to text_to_image_app! This Django project utilizes Celery to parallelly 
 
 1. **Python Environment**: Make sure you have Python installed on your system. You can download and install Python from [here](https://www.python.org/downloads/).
 
-Create a new environment using:
+    Create a new environment using:
     ```bash
     python3 -m venv env
     ```
 
-Activate it using
+    Activate it using
     ```bash
     source ./env/bin/activate
     ```
