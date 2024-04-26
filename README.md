@@ -71,6 +71,9 @@ Activate it using
 
     This will trigger the parallel API calls to generate images.
 
+## Celery Configuration
+- Use your desired configuration in settings.py to run the celery worker
+
 ## Directory Structure
 
 - **text_to_image_app/**: Django project directory.
@@ -82,6 +85,7 @@ Activate it using
 
 ## Additional Notes
 
+- Be sure to install Redis in your system
 - Ensure that the Celery worker is running in the background to process tasks asynchronously.
 - Check the `settings.py` file for any additional configurations specific to your environment.
 - Modify the `API_URL` and `API_SECRET_KEY` in the `.env` file according to your API credentials.
